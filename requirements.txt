@@ -1,0 +1,6 @@
+marimo
+numpy
+scipy
+matplotlib
+seaborn
+polars
