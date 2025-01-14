@@ -1,0 +1,20 @@
+[project]
+name = "smm-ai"
+version = "0.1.0"
+description = "Marimo notebooks implementation of Stats and Maths course assignments"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "marimo>=0.10.12",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.1",
+    "polars>=1.19.0",
+    "scipy>=1.15.1",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.0.1",
+    "ruff>=0.9.1",
+]
